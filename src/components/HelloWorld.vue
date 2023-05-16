@@ -81,7 +81,9 @@
       first-name="Hoang"
       last-name="Phan"
       @on-click="handleSubmit"
-    />
+    >
+      this is slot content
+    </button-component>
   </div>
 </template>
 

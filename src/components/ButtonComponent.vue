@@ -1,6 +1,7 @@
 <template>
   <button class="button button-close" @click="onClick">
     Hello {{ firstName }} {{ lastName }}
+    <slot></slot>
   </button>
 
   <!-- <button class="button button-close" @click="$emit('onClick', 'child')">
